@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h2>
+            Crystals Collector
+        </h2>
+    </div>
+    <div class="instructions">
+        <!-- ordered list of instructions -->
+    </div>
+    <div>
+        <h3>Crystal value to be collected</h3>
+        <p id="crystalValue"></p>
+    </div>
+    <div id="result">
+       <p>Wins : <span id="win"></span></p>
+        <p>Losses :<span id="lost"></span></p>
+    </div>
+    <div>
+            <h3>Crystal collected so far</h3>
+            <p id="crystalCollected"></p>
+        </div>
+
+
+    <div class="crystals">
+        <img id="image1" src="assets/images/image1.jpeg" data-value = 0 height="200px" width="200px" />
+        <img id="image2" src="assets/images/image2.jpeg" data-value = 0 height="200px" width="200px" />
+        <img id="image3" src="assets/images/image3.jpeg" data-value = 0 height="200px" width="200px" />
+        <img id="image4" src="assets/images/image4.jpeg" data-value = 0 height="200px" width="200px" />
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
